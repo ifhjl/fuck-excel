@@ -15,7 +15,7 @@ def clear(name,path):
         count=count+1
     data.to_excel(path)
     if(boo==1):
-        print("数据正常，无需修改")
+        print("数据正常，无需修改",index=False)
     else:
         print("已完成，修改后的文件为{}".format(path))
 
